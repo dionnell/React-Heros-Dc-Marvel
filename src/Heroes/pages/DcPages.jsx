@@ -3,11 +3,12 @@ import { HeroList } from "../components"
 export const DcPages = () => {
   return (
     <>
-      <h1>Dc Comics</h1>
-      <hr />
+      <div className="p-3 ps-5 imageDC">
+        <h1 className="titulo">Dc Comics</h1>
+        <hr />
 
-      <HeroList publisher={'DC Comics'}/>
-
+        <HeroList publisher={'DC Comics'}/>
+      </div>
     </>
   )
 }

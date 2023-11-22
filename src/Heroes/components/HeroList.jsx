@@ -7,7 +7,7 @@ export const HeroList = ({publisher}) => {
     const heroes = useMemo( () => getHeroesByPublisher(publisher), [publisher] ) 
   
     return (
-    <div className="row rows-cols-1 row-cols-md-4 g-3 ">
+    <div className="row  rows-cols-1 row-cols-md-4 g-3 ">
         { 
             heroes.map( hero => ( 
                 <HeroCard 
@@ -17,5 +17,6 @@ export const HeroList = ({publisher}) => {
             ) )
         }
     </div>
+    
   )
 }

@@ -1,1 +1,21 @@
 
+.imageMarvel {
+    background-image: url('/Marvel_Comics.jpg');
+    background-size: contain;
+}
+
+.imageDC {
+    background-image: url('/DC.jpg');
+    background-size: contain;
+}
+
+.CharactersByHero {
+    width: 180px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.titulo {
+    color: white !important;
+}

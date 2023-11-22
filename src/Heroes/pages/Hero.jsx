@@ -21,10 +21,11 @@ export const Hero = () => {
   }
 
   return (
-    <div className="row mt-5">
+    <div className="container  ps-5">
+    <div className="row justify-content-around mt-5">
       <div className="col-4">
         <img 
-          src={ `/assets/heroes/${ id }.jpg` } 
+          src={ `/${ id }.jpg` } 
           alt={hero.superhero}
           className="img-thumbnail animate__bounceIn" 
         />
@@ -49,6 +50,7 @@ export const Hero = () => {
       </div>
 
 
+    </div>
     </div>
   )
 }
