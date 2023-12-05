@@ -10,3 +10,6 @@ Se Uso lo siguiente:
 6. animaciones y estilos con animate.css
 7. reactjs-flip-card para animaciones de las cartas
 8. pruebas de test con babel y jest 
+
+url de la pagina
+https://react-heros-app.netlify.app/marvel
