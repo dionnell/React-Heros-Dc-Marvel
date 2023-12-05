@@ -8,4 +8,5 @@ Se Uso lo siguiente:
 4. QueryParams para la url y queryString para los filtros de los 
 5. un navbar con bootstrap
 6. animaciones y estilos con animate.css
-7. pruebas de test con babel y jest 
+7. reactjs-flip-card para animaciones de las cartas
+8. pruebas de test con babel y jest 
