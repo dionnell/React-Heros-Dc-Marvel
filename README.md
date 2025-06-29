@@ -1,15 +1,29 @@
 # React-Heros-Dc-Marvel
-Esta app muestra heroes de Marvel y Dc con una seccion para cada uno y se puede hacer click en cada uno para ver una descripcion mas detallada de el 
 
-Se Uso lo siguiente:
-1. react-router-dom para personalizar las rutas
-2. se uso el useForm para el formulario del login
-3. un js con la data de los heroes
-4. QueryParams para la url y queryString para los filtros de los 
-5. un navbar con bootstrap
-6. animaciones y estilos con animate.css
-7. reactjs-flip-card para animaciones de las cartas
-8. pruebas de test con babel y jest 
+Esta aplicación web permite explorar héroes de Marvel y DC, mostrando información detallada y funcionalidades interactivas.
 
-url de la pagina
-https://react-heros-app.netlify.app/marvel
+## Funcionalidades
+
+- **Listado de héroes:** Visualiza héroes de Marvel y DC en secciones separadas.
+- **Detalle de héroe:** Haz clic en un héroe para ver una descripción detallada.
+- **Búsqueda y filtrado:** Utiliza QueryParams y queryString para filtrar héroes desde la URL.
+- **Formulario de login:** Incluye un formulario de autenticación usando un custom hook `useForm`.
+- **Navegación:** Barra de navegación con Bootstrap para moverse entre secciones.
+- **Animaciones:** Animaciones visuales con animate.css y animaciones de cartas con reactjs-flip-card.
+- **Pruebas:** Pruebas unitarias con Babel y Jest.
+
+## Tecnologías utilizadas
+
+- ReactJS
+- react-router-dom
+- Bootstrap
+- animate.css
+- reactjs-flip-card
+- query-string
+- Babel y Jest para testing
+
+## Enlace
+
+Disponible en: [https://react-heros-app.netlify.app/marvel](https://react-heros-app.netlify.app/marvel)
+
+---
